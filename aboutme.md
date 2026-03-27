@@ -1,16 +1,34 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Security Engineer focused on detection, cloud security, and customer-facing security solutions
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is **Yazan Armoush**, and I am a Security Engineer with a strong focus on **cybersecurity operations, threat detection, and security architecture**. I enjoy working at the intersection of **technical security engineering and business communication**, helping organizations understand and improve their security posture.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Currently, I work with technologies across the security stack including **SIEM, XDR, cloud security, and vulnerability management**, while also supporting security initiatives such as **ISO 27001, PCI compliance, and enterprise security programs**.
 
-What else do you need?
+I am particularly interested in **presales and solutions engineering**, where I can combine deep technical knowledge with customer engagement to help organizations solve real-world security challenges.
 
-### My story
+### Areas I work with
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- Security monitoring and detection engineering  
+- SIEM platforms and security analytics  
+- Endpoint detection and response (EDR/XDR)  
+- Cloud security and security architecture  
+- Vulnerability management and risk assessment  
+- Security automation and tooling  
+
+### Projects and labs
+
+I regularly build and experiment with security technologies in my personal lab, including:
+
+- Docker and reverse proxy infrastructure  
+- Security tooling and detection workflows  
+- Automation platforms and integrations  
+- Security monitoring and investigation techniques  
+
+### Connect with me
+
+- GitHub: https://github.com/Yazoon66
+- Website: https://yazoon.cloud
