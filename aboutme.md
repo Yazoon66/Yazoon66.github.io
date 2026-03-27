@@ -32,3 +32,4 @@ I regularly build and experiment with security technologies in my personal lab, 
 
 - GitHub: https://github.com/Yazoon66
 - Website: https://yazoon.cloud
+- Linkedin: https://www.linkedin.com/in/yazan-armoush/
