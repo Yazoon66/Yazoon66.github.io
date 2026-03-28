@@ -4,32 +4,47 @@ title: About me
 subtitle: Security Engineer focused on detection, cloud security, and customer-facing security solutions
 ---
 
-My name is **Yazan Armoush**, and I am a Security Engineer with a strong focus on **cybersecurity operations, threat detection, and security architecture**. I enjoy working at the intersection of **technical security engineering and business communication**, helping organizations understand and improve their security posture.
+My name is **Yazan Armoush**, and I am a **Security Engineer based in Toronto** 🇨🇦 with a strong focus on **threat detection, cloud security, and enterprise security operations**.
 
-Currently, I work with technologies across the security stack including **SIEM, XDR, cloud security, and vulnerability management**, while also supporting security initiatives such as **ISO 27001, PCI compliance, and enterprise security programs**.
+I enjoy working at the intersection of **deep technical security engineering and business communication** — helping organizations understand risks, improve visibility, and build stronger security programs. My experience spans **SIEM, XDR, cloud security, vulnerability management, and compliance-driven security programs**.
 
-I am particularly interested in **presales and solutions engineering**, where I can combine deep technical knowledge with customer engagement to help organizations solve real-world security challenges.
+Currently, I work with enterprise security teams to monitor, investigate, and remediate threats using platforms such as **Microsoft Sentinel, Defender, and modern detection engineering tools**. I have also led initiatives around **ISO 27001 certification, PCI-DSS compliance, and CyberSecure Canada**, helping organizations strengthen their security posture while aligning with regulatory requirements.
 
-### Areas I work with
+One of the aspects of security I enjoy the most is **working with people** — whether it is explaining security risks to leadership, collaborating with engineering teams, or guiding customers through complex security solutions.
 
-- Security monitoring and detection engineering  
-- SIEM platforms and security analytics  
-- Endpoint detection and response (EDR/XDR)  
-- Cloud security and security architecture  
-- Vulnerability management and risk assessment  
-- Security automation and tooling  
+I am particularly passionate about **Solutions Engineering and Presales** 🚀, where I can combine **technical expertise with customer engagement** to help organizations evaluate, design, and adopt effective cybersecurity solutions.
 
-### Projects and labs
+---
 
-I regularly build and experiment with security technologies in my personal lab, including:
+### 🔐 Areas I work with
 
-- Docker and reverse proxy infrastructure  
-- Security tooling and detection workflows  
-- Automation platforms and integrations  
-- Security monitoring and investigation techniques  
+- Security monitoring and **detection engineering**
+- **SIEM platforms** and security analytics
+- Endpoint detection and response (**EDR / XDR**)
+- **Cloud security architecture** (AWS and hybrid environments)
+- Vulnerability management and **risk assessment**
+- Enterprise security programs and **compliance initiatives**
+- Security automation and workflow improvements
 
-### Connect with me
+---
+
+### 🧪 Projects and Labs
+
+Outside of my day-to-day work, I enjoy building and experimenting with security technologies in my **personal lab environment**. This helps me stay hands-on with modern security tooling and continuously improve my technical skills.
+
+Some areas I regularly experiment with include:
+
+- Docker infrastructure and **reverse proxy environments**
+- Security monitoring and **detection workflows**
+- Security tooling integrations and **automation platforms**
+- Threat investigation and **incident response techniques**
+
+---
+
+### 🌐 Connect with me
 
 - GitHub: https://github.com/Yazoon66
 - Website: https://yazoon.cloud
-- Linkedin: https://www.linkedin.com/in/yazan-armoush/
+- LinkedIn: https://www.linkedin.com/in/yazan-armoush/
+
+I’m always happy to connect with other **security professionals, engineers, and builders in the cybersecurity community**.
