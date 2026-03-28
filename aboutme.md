@@ -43,8 +43,8 @@ Some areas I regularly experiment with include:
 
 ### 🌐 Connect with me
 
-- GitHub: https://github.com/Yazoon66
-- Website: https://yazoon.cloud
-- LinkedIn: https://www.linkedin.com/in/yazan-armoush/
+- GitHub: [Yazoon66](https://github.com/Yazoon66)
+- Website: [yazoon.cloud](https://yazoon.cloud)
+- LinkedIn: [Yazan Armoush](https://www.linkedin.com/in/yazan-armoush/)
 
 I’m always happy to connect with other **security professionals, engineers, and builders in the cybersecurity community**.
