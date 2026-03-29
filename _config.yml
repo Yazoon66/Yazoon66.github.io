@@ -21,7 +21,7 @@ author: Yazan Armoush
 
 navbar-links:
   About Me: "aboutme"
-  Lab Notes:
+  Blog Categories:
     - Threat Analysis: "categories/threat-analysis"
     - Security Engineering: "categories/security-engineering"
     - Certifications: "categories/certifications"
