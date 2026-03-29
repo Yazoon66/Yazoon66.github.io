@@ -21,6 +21,11 @@ author: Yazan Armoush
 
 navbar-links:
   About Me: "aboutme"
+  Lab Notes:
+    - Threat Analysis: "categories/threat-analysis"
+    - Security Engineering: "categories/security-engineering"
+    - Certifications: "categories/certifications"
+    - AI & Security: "categories/ai-security"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
