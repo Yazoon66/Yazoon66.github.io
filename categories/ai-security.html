@@ -9,10 +9,12 @@ subtitle: AI threats, LLM security, and the intersection of AI and cybersecurity
   <p>No posts yet — check back soon!</p>
 {% else %}
   {% for post in posts %}
-    <article>
+    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #eee;">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-      <p>{{ post.excerpt }}</p>
-    </article>
+      <p style="color: #888; font-size: 0.9rem;">{{ post.date | date: "%B %d, %Y" }} &bull; AI & Security</p>
+      {% if post.subtitle %}<p><em>{{ post.subtitle }}</em></p>{% endif %}
+      <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      <a href="{{ post.url }}">Read more &rarr;</a>
+    </div>
   {% endfor %}
 {% endif %}
