@@ -1,0 +1,12 @@
+/* Fix main title size on mobile so it doesn't wrap */
+@media (max-width: 768px) {
+  .intro-header .page-heading h1,
+  .intro-header .post-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  /* Push avatar down slightly so it doesn't overlap navbar title */
+  .navbar-custom .avatar-container {
+    bottom: -2.5rem;
+  }
+}
