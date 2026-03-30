@@ -121,13 +121,11 @@ body.dark-mode footer a {
   background: none !important;
   cursor: pointer;
   font-size: 1.1rem;
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
   line-height: 1;
-  position: absolute;
-  right: 3rem;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
 }
 
 /* Fix main title size on mobile so it doesn't wrap */
