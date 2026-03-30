@@ -2,13 +2,14 @@
 layout: post
 title: "Is Claude in Chrome Actually Safe? A Security Engineer's Take"
 subtitle: "A deep dive into the permissions, attack surface, and real vulnerabilities of Anthropic's browser agent"
-cover-img: /assets/img/Claude_Post/1.png
 thumbnail-img: /assets/img/Claude_Post/1.png
 author: Yazan Armoush
 categories: [threat-analysis]
 social-share: false
 published: true
 ---
+
+![Claude in Chrome](/assets/img/Claude_Post/1.png)
 
 I've been using Claude heavily lately, and when Anthropic dropped the Chrome extension, I wanted to try it. But before I just clicked "Add to Chrome" and moved on, I did what any security engineer would do — I asked the uncomfortable questions first.
 
