@@ -30,6 +30,11 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
+      <li class="nav-item">
+        <button id="theme-toggle" title="Toggle dark/light mode">
+          <span id="theme-icon">🌙</span>
+        </button>
+      </li>
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
@@ -38,11 +43,6 @@
           </a>
         </li>
       {%- endif -%}
-      <li class="nav-item">
-        <button id="theme-toggle" class="nav-link btn btn-link" title="Toggle dark/light mode" style="border:none; background:none; cursor:pointer; font-size:1.1rem; padding: 0.5rem;">
-          <span id="theme-icon">🌙</span>
-        </button>
-      </li>
     </ul>
   </div>
 
