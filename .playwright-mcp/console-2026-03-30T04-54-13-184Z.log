@@ -1,0 +1,8 @@
+[  192131ms] TypeError: Cannot set properties of null (setting 'textContent')
+    at applyTheme (http://localhost:4000/:452:26)
+    at http://localhost:4000/:460:5
+    at http://localhost:4000/:467:5
+[  226609ms] TypeError: Cannot set properties of null (setting 'textContent')
+    at applyTheme (http://localhost:4000/:452:26)
+    at http://localhost:4000/:460:5
+    at http://localhost:4000/:467:5
