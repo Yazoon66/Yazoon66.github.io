@@ -114,9 +114,9 @@ body.dark-mode footer a, body.dark-mode footer span {
   font-size: 1.1rem;
   padding: 0 0.5rem;
   line-height: 1;
-  vertical-align: middle;
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  height: 100%;
 }
 
 /* Fix main title size on mobile so it doesn't wrap */
