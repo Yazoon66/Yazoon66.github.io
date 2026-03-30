@@ -5,7 +5,7 @@ subtitle: "A second major breach hits EU institutions in months — over 350 GB 
 cover-img: /assets/img/bgimage.png
 thumbnail-img: /assets/img/European_Union_flags.png
 share-img: /assets/img/bgimage.png
-tags: [breach, aws, cloud security, threat analysis]
+tags: []
 author: Yazan Armoush
 categories: [threat-analysis]
 social-share: false
