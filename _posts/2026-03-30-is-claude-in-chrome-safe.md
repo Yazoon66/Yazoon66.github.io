@@ -27,11 +27,11 @@ To install it you need a paid Claude plan. You go to the Chrome Web Store, find 
 
 One thing worth saying upfront: **only install the extension published by Anthropic**. There are third-party "Claude" extensions floating around and they have no business touching your browser.
 
-![Description of image](/assets/img/Claude_Post/permissions.png)
+![Description of image](/assets/img/Claude_Post/2.png)
 ---
 
 ## What Permissions Are We Actually Granting?
-![Description of image](/assets/img/Claude_Post/2.png)
+![Description of image](/assets/img/Claude_Post/permissions.png)
 
 This is the first thing I looked at. The extension needs broad permissions to do its job. It must read pages, interact with elements, and in some configurations access things like your Gmail or Google Drive if you have connected them.
 
