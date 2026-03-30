@@ -2,9 +2,7 @@
 layout: post
 title: "European Commission Under Investigation After AWS Account Compromise"
 subtitle: "A second major breach hits EU institutions in months — over 350 GB of data exfiltrated"
-cover-img: /assets/img/bgimage.png
 thumbnail-img: /assets/img/European_Union_flags.png
-share-img: /assets/img/bgimage.png
 tags: []
 author: Yazan Armoush
 categories: [threat-analysis]
