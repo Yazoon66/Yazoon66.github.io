@@ -1,56 +1,86 @@
-/* ── Dark mode: override CSS variables ── */
-body.dark-mode {
-  --page-col: #1a1a1a !important;
-  --text-col: #e0e0e0 !important;
-  --navbar-col: #2c2c2c !important;
-  --navbar-text-col: #e0e0e0 !important;
-  --navbar-border-col: #444444 !important;
-  --footer-col: #2c2c2c !important;
-  --footer-text-col: #aaaaaa !important;
-  --footer-link-col: #cccccc !important;
+/* ── Light mode (explicit) ── */
+body.light-mode,
+body.light-mode .intro-header,
+body.light-mode .intro-header.no-img {
+  background-color: #ffffff !important;
+  color: #404040 !important;
+}
+body.light-mode .navbar-custom {
+  background-color: #EAEAEA !important;
+  border-color: #DDDDDD !important;
+}
+body.light-mode .navbar-custom .nav-link,
+body.light-mode .navbar-custom .navbar-brand {
+  color: #404040 !important;
+}
+body.light-mode .navbar-custom .dropdown-menu {
+  background-color: #ffffff !important;
+}
+body.light-mode .navbar-custom .dropdown-item {
+  color: #404040 !important;
+}
+body.light-mode footer {
+  background-color: #EAEAEA !important;
+  color: #777777 !important;
+}
+body.light-mode footer a {
+  color: #404040 !important;
+}
+body.light-mode .post-preview,
+body.light-mode .blog-post {
+  background-color: #ffffff !important;
+  color: #404040 !important;
+}
+body.light-mode .post-title a,
+body.light-mode .post-subtitle,
+body.light-mode h1, body.light-mode h2,
+body.light-mode h3, body.light-mode p {
+  color: #404040 !important;
+}
+
+/* ── Dark mode ── */
+body.dark-mode,
+body.dark-mode .intro-header,
+body.dark-mode .intro-header.no-img {
   background-color: #1a1a1a !important;
   color: #e0e0e0 !important;
 }
-
 body.dark-mode .navbar-custom {
   background-color: #2c2c2c !important;
   border-color: #444 !important;
 }
-
 body.dark-mode .navbar-custom .nav-link,
 body.dark-mode .navbar-custom .navbar-brand {
   color: #e0e0e0 !important;
 }
-
 body.dark-mode .navbar-custom .dropdown-menu {
   background-color: #2c2c2c !important;
   border-color: #444 !important;
 }
-
 body.dark-mode .navbar-custom .dropdown-item {
   color: #e0e0e0 !important;
 }
-
 body.dark-mode .navbar-custom .dropdown-item:hover {
   background-color: #3a3a3a !important;
 }
-
 body.dark-mode footer {
   background-color: #2c2c2c !important;
   color: #aaa !important;
   border-color: #444 !important;
 }
-
 body.dark-mode footer a {
   color: #ccc !important;
 }
-
-body.dark-mode .intro-header {
-  background-color: #2c2c2c !important;
+body.dark-mode .post-preview,
+body.dark-mode .blog-post {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
 }
-
-body.dark-mode .post-preview {
-  border-color: #444 !important;
+body.dark-mode .post-title a,
+body.dark-mode .post-subtitle,
+body.dark-mode h1, body.dark-mode h2,
+body.dark-mode h3, body.dark-mode p {
+  color: #e0e0e0 !important;
 }
 
 /* ── Theme toggle button ── */
@@ -70,8 +100,6 @@ body.dark-mode .post-preview {
   .intro-header .post-heading h1 {
     font-size: 1.8rem;
   }
-
-  /* Push avatar down slightly so it doesn't overlap navbar title */
   .navbar-custom .avatar-container {
     bottom: -2.5rem;
   }
