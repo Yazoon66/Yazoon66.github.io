@@ -36,3 +36,27 @@
     <script src="{{ js | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+  (function() {
+    var toggle = document.getElementById('theme-toggle');
+    var icon = document.getElementById('theme-icon');
+
+    // Check saved preference, otherwise use system default
+    var saved = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var isDark = saved ? saved === 'dark' : prefersDark;
+
+    if (isDark) {
+      document.body.classList.add('dark-mode');
+      icon.textContent = '☀️';
+    }
+
+    toggle.addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
+      var dark = document.body.classList.contains('dark-mode');
+      icon.textContent = dark ? '☀️' : '🌙';
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
+    });
+  })();
+</script>
