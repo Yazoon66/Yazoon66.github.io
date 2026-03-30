@@ -27,8 +27,6 @@ navbar-links:
     - Certifications: "categories/certifications"
     - AI & Security: "categories/ai-security"
   Resources:
-    - My LinkedIn: "https://www.linkedin.com/in/yazan-armoush"
-    - My GitHub: "https://github.com/Yazoon66"
     - MITRE ATT&CK: "https://attack.mitre.org"
     - CVE Database: "https://www.cvedetails.com"
     - Have I Been Pwned: "https://haveibeenpwned.com"

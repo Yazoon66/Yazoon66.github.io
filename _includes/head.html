@@ -2,6 +2,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/png" href="/assets/img/Yazzon-Security-Lab.png">
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var isDark = saved ? saved === 'dark' : prefersDark;
+      document.documentElement.classList.add(isDark ? 'dark-mode' : 'light-mode');
+    })();
+  </script>
 
   {% capture pagetitle %}
     {%- if page.share-title -%}

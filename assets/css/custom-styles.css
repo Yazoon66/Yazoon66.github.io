@@ -10,7 +10,7 @@ body.light-mode footer .row {
 }
 
 /* ── Light mode ── */
-body.light-mode {
+html.light-mode, body.light-mode {
   --page-col: #ffffff;
   --text-col: #404040;
   --navbar-col: #EAEAEA;
@@ -62,7 +62,7 @@ body.light-mode footer a {
 }
 
 /* ── Dark mode ── */
-body.dark-mode {
+html.dark-mode, body.dark-mode {
   --page-col: #1a1a1a;
   --text-col: #e0e0e0;
   --navbar-col: #2c2c2c;
