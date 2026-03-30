@@ -1,12 +1,8 @@
-/* ── Fix footer white box (Bootstrap override) ── */
-footer .container-md,
-footer .beautiful-jekyll-footer,
-footer .row,
-footer [class*="col-"],
-footer ul,
-footer li,
-footer p,
-footer span:not(.fa-stack):not(.sr-only) {
+/* ── Fix footer box (Bootstrap override) ── */
+footer, footer * {
+  background-color: inherit !important;
+}
+footer i, footer svg {
   background-color: transparent !important;
 }
 
