@@ -117,15 +117,19 @@ body.dark-mode footer a {
 
 /* ── Theme toggle button ── */
 #theme-toggle {
+  position: static !important;
   border: none !important;
   background: none !important;
   cursor: pointer;
   font-size: 1.1rem;
   padding: 0 0.5rem;
+  margin-left: 0.5rem;
   line-height: 1;
   display: inline-flex;
   align-items: center;
-  vertical-align: middle;
+  transform: none !important;
+  top: auto !important;
+  right: auto !important;
 }
 
 /* Fix main title size on mobile so it doesn't wrap */
