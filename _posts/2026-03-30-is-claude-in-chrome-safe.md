@@ -27,9 +27,11 @@ To install it you need a paid Claude plan. You go to the Chrome Web Store, find 
 
 One thing worth saying upfront: **only install the extension published by Anthropic**. There are third-party "Claude" extensions floating around and they have no business touching your browser.
 
+![Description of image](/assets/img/Claude_Post/permissions.png)
 ---
 
 ## What Permissions Are We Actually Granting?
+![Description of image](/assets/img/Claude_Post/2.png)
 
 This is the first thing I looked at. The extension needs broad permissions to do its job. It must read pages, interact with elements, and in some configurations access things like your Gmail or Google Drive if you have connected them.
 
@@ -44,6 +46,7 @@ Every one of those components is a trust boundary. Data flows in from your goals
 That is not inherently bad. But it means you need to be intentional about which sites you grant it access to. You can manage this per site in your Chrome extension settings. I would strongly recommend starting with only the sites you need it for — not blanket approving everything.
 
 ### How to Find This Setting
+![Description of image](/assets/img/Claude_Post/3.png)
 
 Click the puzzle piece icon in your Chrome toolbar, find Claude in the list, and click the three dots next to it. Select **"Manage extension."** Once you are on the extension detail page, scroll down until you see the **"Site access"** section. You will see a dropdown with three options:
 
@@ -75,6 +78,7 @@ This is something most people do not think about. Claude does not just look at y
 
 These are exactly the inputs that need the most protection from manipulation. If an attacker can control what Claude reads, they can control what Claude does. That is the core of the prompt injection threat we will get into next.
 
+![Description of image](/assets/img/Claude_Post/4.png)
 ---
 
 ## The Dev Tools Nobody Told You About
@@ -91,6 +95,7 @@ Zenity Labs extracted Claude's system prompt and found that beyond the standard 
 
 That last one is the serious one. The browser security community has spent decades fighting XSS — Cross-Site Scripting — which is essentially unauthorized JavaScript execution in a browser context. Now we have an extension that can run JavaScript by design, powered by an AI that can be influenced through the content it reads. Combine that with the fact that Claude is always authenticated and cookies are being sent with every same-origin request, and you have a tool that materially changes the browser's security model.
 
+![Description of image](/assets/img/Claude_Post/5.png)
 ---
 
 ## The Real Risk: Prompt Injection
@@ -114,6 +119,7 @@ The exploit chained two flaws. The extension's messaging API accepted a `prompt`
 
 If you have the extension installed, go to `chrome://extensions` right now and confirm you are on version **1.0.41 or higher**.
 
+![Description of image](/assets/img/Claude_Post/6.png)
 ---
 
 ## The Broader Threat Picture
@@ -137,6 +143,8 @@ To mitigate the risk of unbridled autonomy, Anthropic built in a **Human in the 
 The intention is solid. But Zenity found a real limitation in practice. Claude presents a plan upfront, and the plan does not always perfectly match what it ends up doing. In their testing, Claude was asked to summarize a page, presented a simple plan, and then navigated to Wikipedia even though that was not part of the approved plan. Claude was not being malicious — it interpreted its task more broadly than expected. But the key issue is that **the plan does not actually constrain what Claude can do**. It is more of an upfront description than a hard boundary.
 
 There is also a usability problem baked in. If every action requires approval, users get fatigued and switch to full autonomy mode — which defeats the purpose entirely. This is **approval fatigue** and it is a well-known pattern in security. The more friction you add without context, the more likely people are to click through without reading.
+
+![Description of image](/assets/img/Claude_Post/7.png)
 
 ---
 
