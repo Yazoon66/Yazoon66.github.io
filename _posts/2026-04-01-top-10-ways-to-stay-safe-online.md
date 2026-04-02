@@ -4,7 +4,7 @@ title: "Top 10 Ways to Stay Safe Online"
 subtitle: "A Simple Guide for Everyone"
 thumbnail-img: /assets/img/Stay_Safe_Online/title.png
 author: Yazan Armoush
-categories: [AI & Security]
+categories: [ai-security]
 social-share: false
 ---
 
